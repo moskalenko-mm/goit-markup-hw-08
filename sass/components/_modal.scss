@@ -1,0 +1,42 @@
+.modal {
+	position: absolute;
+	min-width: 528px;
+	min-height: 581px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+
+	background-color: $prymary-white-color;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.modal__btn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+
+	background: $prymary-white-color;
+
+	border: 1px solid $modal-btn-border;
+	border-radius: 50%;
+
+	color: $logo-text-color;
+
+	cursor: pointer;
+
+	@include transition(color);
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}

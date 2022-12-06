@@ -1,0 +1,38 @@
+.footer {
+	background-color: $hero-bg-color;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer__container {
+	display: flex;
+	align-items: baseline;
+}
+
+.footer__logo {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.footer__social {
+	margin-right: auto;
+}
+
+.footer__text {
+	margin-bottom: 20px;
+
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: $prymary-white-color;
+}
+
+.socials__link--theme-footer {
+	background-color: $footer-social-bg-color;
+	color: $prymary-white-color;
+}
+
+.socials__link--theme-footer:hover,
+.socials__link--theme-footer:focus {
+	background-color: $accent-color;
+}

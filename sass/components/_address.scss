@@ -1,0 +1,24 @@
+.address {
+	margin-right: 70px;
+}
+
+.address__link {
+	font-style: normal;
+	line-height: 1.71;
+	color: $footer-contacts-color;
+
+	@include transition(color);
+
+	&--white {
+		color: $prymary-white-color;
+	}
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}
+
+.address__item:not(:last-child) {
+	margin-bottom: 9px;
+}

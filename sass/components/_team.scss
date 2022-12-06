@@ -1,0 +1,53 @@
+.team {
+	background-color: $button-secondary-bg-color;
+}
+
+.team__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.team__item {
+	flex-basis: calc((100% - 90px) / 4);
+
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	background-color: $prymary-white-color;
+}
+
+.team__subtitle {
+	display: block;
+	margin-bottom: 10px;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: $main-title-color;
+}
+
+.team__content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.team__text {
+	margin-bottom: 16px;
+
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+.socials__link--theme-team {
+	background-color: $prymary-white-color;
+	color: $clients-primary-color;
+}
+
+.socials__link--theme-team:hover,
+.socials__link--theme-team:focus {
+	background-color: $accent-color;
+	color: $prymary-white-color;
+}
