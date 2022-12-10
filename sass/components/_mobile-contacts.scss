@@ -5,3 +5,28 @@
 .mobile-contacts__item:last-child {
 	margin-bottom: 64px;
 }
+
+.mobile-contacts__phone {
+	font-weight: 500;
+	font-size: 7vw;
+	line-height: calc(34 / 40);
+	letter-spacing: 0.02em;
+
+	color: $accent-color;
+
+	@media screen and (min-width: 480px) {
+		font-size: 34px;
+	}
+}
+
+.mobile-contacts__mail {
+	font-weight: 500;
+	font-size: 5vw;
+	line-height: calc(24 / 28);
+	letter-spacing: 0.02em;
+	color: $primary-text-color;
+
+	@media screen and (min-width: 480px) {
+		font-size: 24px;
+	}
+}

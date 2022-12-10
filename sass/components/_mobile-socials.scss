@@ -1,0 +1,29 @@
+.mobile-socials {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.mobile-socials__link {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: calc(22 / 18);
+	letter-spacing: 0.02em;
+
+	color: $accent-color;
+}
+
+.mobile-socials__item {
+	position: relative;
+
+	&:not(:first-child)::before {
+		content: "";
+		position: absolute;
+		left: -10px;
+		top: 0;
+		display: inline-block;
+		width: 1px;
+		height: 100%;
+		background-color: $accent-color;
+	}
+}
