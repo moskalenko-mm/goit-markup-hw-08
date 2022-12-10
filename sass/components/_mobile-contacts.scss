@@ -1,0 +1,7 @@
+.mobile-contacts__item:not(:last-child) {
+	margin-bottom: 32px;
+}
+
+.mobile-contacts__item:last-child {
+	margin-bottom: 64px;
+}

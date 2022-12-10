@@ -5,6 +5,11 @@
 .header__box {
 	display: flex;
 	align-items: center;
+	min-height: 80px;
+
+	@media screen and (max-width: 767px) {
+		min-height: 60px;
+	}
 }
 
 .header__contacts-list {
