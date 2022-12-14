@@ -9,6 +9,10 @@
 	background-color: $backdrop-bg;
 	transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
 		visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	@media screen and (max-width: 1199px) {
+		overflow-x: scroll;
+	}
 }
 
 .backdrop.is-hidden {

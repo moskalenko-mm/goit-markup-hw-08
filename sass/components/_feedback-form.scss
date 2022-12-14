@@ -88,6 +88,10 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 30px;
+
+	@media screen and (max-width: 1199px) {
+		font-size: 12px;
+	}
 }
 
 .feedback-form__policy-link {

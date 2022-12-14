@@ -17,5 +17,11 @@
 }
 
 .header__logo {
-	margin-right: 94px;
+	@media screen and (min-width: 768px) {
+		margin-right: 87px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-right: 94px;
+	}
 }
